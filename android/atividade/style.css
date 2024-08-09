@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ 
+@font-face{
+    font-family: 'android';
+    src: url('/fontes/idroid.otf') format('opetype');
+    font-weight: normal;
+ }
+
+
+
+:root{
+    --cor1: #aaddc1;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+    
+    --fonte-padrao: arial,verdana,helvetica,sans-serif;
+    --fonte-destaque:font-family: 'Bebas Neue',sans-serif;
+    --fonte-android: 'android';
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: var(--fonte-padrao);
+    padding: 0;
+    margin: 0;
+  
+}
+
+header{
+    background-image: linear-gradient(to right,#83e1ad,#3ddc84,#2fa866);
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    min-width: 150px;
+    max-width: 1000px;
+     margin: auto;
+    padding-top: 30px; 
+    padding: 20px;
+    
+}
+
+header >p{
+    text-align: center;
+}
+
+header >h1{
+    
+    
+}
+
+nav{
+    
+    background-color: var(--cor2);
+    border-radius: 5px;
+    font-weight: bolder;   
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+ a:hover{
+   background-color: var(--cor1);
+   border-radius: 3px;
+   
+}
+
+main{
+    margin: auto;
+    background-color: #73f0a9;
+    min-width: 300px;
+    max-width: 1000px;
+    margin-bottom: -8px;
+    padding: 20px;
+}
+main p{
+    text-align: justify;
+    margin: 7px; 
+    margin: 15px 0px;
+    text-indent: 30px;
+     m
+   
+   
+}
+
+footer{
+    display: flex;
+    margin: auto;
+    background-color: #62cf91;;   
+    min-width: 320px;
+    max-width: 1000px;
+   
+       
+}
+
+footer >p{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+
+   
+    
+}
+
+h1{
+    margin-top: 0px;
+}
+
+h2{
+    margin: 7px;
+}
+
+h3{
+    margin: 7px;
+}
+
+
+    
+
+main h1{
+
+font-family: var(--fonte-android);
+text-align: center;
+
+}
+
+#img{
+    margin: auto;
+
+  }
+
+  .android {
+    max-width: 350;
+    display: flex;
+    margin: auto;
+    
+  }
+
+  .android-lado{
+    display: flex;
+    margin: auto;
+  }
+
+  .video{
+     width: 50%;
+      display: block;
+      margin: auto;
+     border: #14462a;
+     border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    
+  }
+
+  .irina-grande{
+    display: flex;
+    margin: auto;
+    border-style: solid;
+    border-color:#14462ad0;4;
+    border-width: 1px;
+    border-radius: 3px;
+    
+  }
